@@ -1,9 +1,0 @@
-Problem Name:  Replace Employee ID With The Unique Identifier
-Problem Link: (LeetCode URL)
-SQL Solution: 
-SELECT 
-    eu.unique_id,
-    e.name
-FROM Employees e
-LEFT JOIN EmployeeUNI eu
-ON e.id = eu.id;
